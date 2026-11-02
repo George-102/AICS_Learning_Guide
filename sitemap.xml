@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/</loc>
+        <lastmod>2026-11-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/"/>
+    </url>
+    <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/AI-CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/</loc>
+        <lastmod>2026-11-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/AI-CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/AI-CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
+    </url>
+    <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</loc>
+        <lastmod>2026-11-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
+    </url>
+    <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/en/</loc>
+        <lastmod>2026-11-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/"/>
+    </url>
+    <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/en/AI-CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/</loc>
+        <lastmod>2026-11-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/AI-CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/AI-CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
+    </url>
+    <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/en/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</loc>
+        <lastmod>2026-11-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
+    </url>
+</urlset>
