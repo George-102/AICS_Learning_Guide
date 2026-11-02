@@ -1,0 +1,6 @@
+.vscode/
+.claude/
+/venv
+/site
+CLAUDE.md
+AGENTS.md

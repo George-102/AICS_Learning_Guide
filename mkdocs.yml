@@ -1,0 +1,98 @@
+site_name: AICS Learning Guide
+site_url: https://george-102.github.io/AICS_Learning_Guide/
+site_author: Christopher Chang
+site_description: a guide for learning AICS
+
+repo_name: AICS_Learning_Guide
+repo_url: https://github.com/George-102/AICS_Learning_Guide
+
+copyright: Copyright &copy; 2026-present <a href="https://github.com/George-102" target="_blank" rel="noopener noreferrer">Christopher Chang</a>
+
+theme:
+  name: material
+  custom_dir: overrides  
+  language: zh
+  static_templates:
+    - 404.html
+  favicon: images/favicon.svg
+  apple-touch-icon-precomposed: images/favicon.png
+  include_search_page: false
+  search_index_only: true
+
+  features:
+    - header.autohide
+    - navigation.tracking
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.annotate
+    - comments
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: 'deep purple'
+      accent: 'pink'
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: 'deep green'
+      accent: 'lime'
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+  font:
+    text: Roboto Slab
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github # 右上角 GitHub 链接按钮的图标
+    previous: material/arrow-left-circle # 自定义“上一页”图标
+    next: material/arrow-right-circle  
+
+  # 如果没有 overrides 文件夹，删除下面这行或注释掉
+  # custom_dir: overrides
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - footnotes
+
+plugins:
+  - i18n:
+      languages:
+        - locale: zh
+          default: true
+          name: 简体中文
+          build: true
+        - locale: en
+          name: English
+          build: true
+          site_name: AI-CS Learning Guide
+          nav_translations:
+            前言: Foreword
+            如何使用这本指南: How to Use This Guide
+            一份仅供参考的学习规划: A learning plan for reference only
+
+
+  - search:
+      lang:
+        - zh
+        - en
+  - git-revision-date:
+  - minify:
+      minify_html: true
+  - open-in-new-tab:
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/George-102/AICS_Learning_Guide/
+
+nav:
+  - 前言: "index.md"
+  - 如何使用这本指南: "使用指南.md"
+  - 一份仅供参考的学习规划: "AI-CS学习规划.md"
