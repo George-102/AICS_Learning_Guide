@@ -1,6 +1,6 @@
 <figure markdown>
-  ![Image title](./images/title_light.png#only-light){ width="750" }
-  ![Image title](./images/title_dark.png#only-dark){ width="750" }
+  ![Image title](./images/title_light.png#only-light){ width="100%" }
+  ![Image title](./images/title_dark.png#only-dark){ width="100%" }
 </figure>
 # Foreword
 
@@ -10,8 +10,8 @@ If this guide helps you even a little, that will be encouragement and comfort en
 
 The book currently contains the following parts (if you have better ideas, or would like to join the contributors, feel free to reach me at [zhangchaowen@stu.scu.edu.cn](mailto:zhangchaowen@stu.scu.edu.cn), or open an [Issue](https://github.com/George-102/AICS_Learning_Guide/issues)):
 
-- **How to Use This Guide**: the book covers a great many resources, so I have written separate usage guides for readers with different amounts of free time and different learning goals.
-- **AICS Learning Plan**: a learning plan for the AI and computer science era, for reference only.
+- **How to Use This Guide**: the book covers a great many resources, so I have written usage guides for readers with different amounts of free time and different learning goals.
+- **AICS Learning Plan**: a learning plan for the AI era of computer science, for reference only.
 
 ## Where the Journey Began
 

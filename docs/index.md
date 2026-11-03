@@ -1,6 +1,6 @@
 <figure markdown>
-  ![Image title](./images/title_light.png#only-light){ width="750" }
-  ![Image title](./images/title_dark.png#only-dark){ width="750" }
+  ![Image title](./images/title_light.png#only-light){ width="100%" }
+  ![Image title](./images/title_dark.png#only-dark){ width="100%" }
 </figure>
 # 前言
 

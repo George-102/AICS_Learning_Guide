@@ -1,4 +1,4 @@
-# Course Code: Course Name
+# Course Code(optional): Course Name
 
 ## Descriptions
 
@@ -19,10 +19,10 @@
 
 ## Course Resources
 
-- Course Website:
-- Recordings:
-- Textbooks:
-- Assignments:
+- Course Website(optional):
+- Recordings(optional):
+- Textbooks(optional):
+- Assignments(optional):
 
 ## Personal Resources
 

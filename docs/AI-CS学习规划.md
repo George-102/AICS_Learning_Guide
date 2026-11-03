@@ -33,7 +33,7 @@
 | :--------------------- | :----------------------------------------------------------- |
 | 数学基础               | 微积分、线性代数、离散数学。**数学决定了你在这一行能走多远**：微积分是理解梯度与优化的入口，线代是所有机器学习和图形学的语言，离散数学则是算法、密码学与编译理论的共同底座。建议在大一就把微积分和线代学到“刻骨铭心”的程度，而不是考完就忘，如果课上讲得晦涩，可以参考 [MIT 18.06](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) 的公开课程，以及 [3Blue1Brown](https://www.youtube.com/@3blue1brown) 那些把数学本质讲得极具美感的动画视频。 |
 | 程序设计基础           | C/C++、Java、Python。编程语言是工具，重要的是理解语言背后的设计思想：数组、字符串、指针、面向对象。初学者不要同时学好几门语言，先深入一门，再通过第二门理解不同的编程范式与生态，会比“每门都学过一点”走得更远。 |
-| 数据结构和算法         | 算法是计算机科学的核心，是**面试和刷题**绕不开的内容，也是几乎一切专业课程的基础。如何将实际问题通过数学抽象转化为算法问题，并选用合适的数据结构在时间和内存大小的限制下将其解决是算法课的永恒主题 |
+| 数据结构和算法         | 算法是计算机科学的核心，是**面试和刷题**绕不开的内容，也是几乎一切专业课程的基础。如何将实际问题通过数学抽象转化为算法问题，并选用合适的数据结构在时间和内存大小的限制下将其解决是算法课的永恒主题。零基础入门可先用《Hello 算法》建立直观理解，详见 [ALGO-101：Hello 算法](数据结构和算法/hello-algo.md)。 |
 | 数字逻辑与计算机组成   | 逻辑电路、CPU、指令与存储层次。这一块回答一个朴素的问题：**程序到底是怎么跑起来的**。想要既有趣又完整地建立这套认知，很推荐从零开始造一台计算机的 [Nand2Tetris](https://www.nand2tetris.org/) 入门，再深入 [UCB CS61C](https://cs61c.org/) 这类体系结构课程。 |
 | 操作系统               | 操作系统把复杂而混乱的硬件虚拟成一套优雅的抽象，是**所有应用的共同底座**。这门课真正的收获往往来自动手，没有什么比亲手写一个内核更能加深理解，这里推荐[MIT 6.S081 (基于 xv6)](https://pdos.csail.mit.edu/6.828/2021/index.html)以及[仓库](https://github.com/wlmrh/MIT-6.S081)来学习。 |
 | 计算机网络             | 大名鼎鼎的 [Stanford CS144: Computer Network](https://cs144.github.io/)，8 个 Project 带你实现整个 TCP/IP 协议栈。如果你只是想在理论上对计算机网络有所了解，那么推荐阅读 [UCB CS168](https://sp25.cs168.io/) 这门课程配套的[教材](https://textbook.cs168.io/)。 |
@@ -94,3 +94,17 @@
 | 科研与学术发展     | 文献阅读、实验复现、论文写作与申请。入门读 [《How to Read a Paper》](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)，文献管理用 Zotero，排版用 LaTeX。 |
 | 技术沟通与团队协作 | 文档编写、代码审查、项目管理与表达。推荐 Google 的 [Technical Writing Courses](https://developers.google.com/tech-writing) 与 [工程实践文档](https://github.com/google/eng-practices)。 |
 | 持续学习与职业成长 | 跟踪技术趋势、评估新技术、长期规划。读官方文档而非二手教程，关注 [Hacker News](https://news.ycombinator.com/) 保持输入。 |
+
+
+
+## 定制路线
+
+> _授人以鱼不如授人以渔_
+
+以上的课程规划难免带有强烈的个人偏好，不一定适合所有人，更多是起到抛砖引玉的作用。如果你想挑选自己感兴趣的方向和内容加以学习，可以参考我在下面列出来的资源。
+
+- [MIT OpenCourseWare](https://ocw.mit.edu/): 麻省理工学院的课程资源开放共享项目，收录了数以千计的各科课程资源，其中计算机类的课号是 6.xxx。
+- [MIT CS Course List](http://student.mit.edu/catalog/m6a.html): 麻省理工学院的 CS 课程列表。
+- [UC Berkeley EECS Course Map](https://hkn.eecs.berkeley.edu/courseguides): UC Berkeley 的 EECS 培养方案，以课程地图的方式将各门课程的类别和先修关系一目了然地呈现，其中绝大多数课程本书中均有收录。
+- [UC Berkeley CS Course List](https://www2.eecs.berkeley.edu/Courses/CS/): UC Berkeley 的 CS 课程列表。
+- [Stanford CS Course List](https://blog.csdn.net/qq_41220023/article/details/81976967): 斯坦福的 CS 课程列表。

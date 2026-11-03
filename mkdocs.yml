@@ -16,7 +16,7 @@ theme:
     - 404.html
   favicon: images/favicon.svg
   logo: images/favicon.svg
-  apple-touch-icon-precomposed: images/favicon.png
+  apple-touch-icon-precomposed: images/favicon.svg
   include_search_page: false
   search_index_only: true
 
@@ -113,6 +113,12 @@ plugins:
             前言: Foreword
             如何使用这本指南: How to Use This Guide
             一份仅供参考的学习规划: A learning plan for reference only
+            AI 时代工程能力: Engineering Skills in the AI Era
+            "Harness Engineering": "Harness Engineering"
+            数据结构和算法: Data Structures and Algorithms
+            "Hello Algo": "Hello Algo"
+            机器学习与强化学习: Machine Learning and Reinforcement Learning
+            "Easy RL 强化学习教程": "Easy RL"
 
 
   - search:
@@ -136,3 +142,9 @@ nav:
   - 前言: "index.md"
   - 如何使用这本指南: "使用指南.md"
   - 一份仅供参考的学习规划: "AI-CS学习规划.md"
+  - AI 时代工程能力:
+      - Harness Engineering: "AI时代工程能力/harness-engineering.md"
+  - 数据结构和算法:
+      - Hello Algo: "数据结构和算法/hello-algo.md"
+  - 机器学习与强化学习:
+      - Easy RL 强化学习教程: "机器学习与强化学习/easy-rl.md"
