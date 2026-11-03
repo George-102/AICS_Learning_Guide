@@ -80,6 +80,10 @@
 }
 
 .md-typeset figure img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
   border-radius: var(--aics-radius);
   box-shadow: var(--aics-shadow);
 }
@@ -261,6 +265,8 @@
   border-radius: 0.75rem;
   box-shadow: 0 0 0 1px var(--aics-border), 0 8px 32px var(--aics-glow);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
+  max-width: 100%;
+  height: auto;
 }
 
 .md-typeset > figure:first-child img:hover {
@@ -356,4 +362,10 @@
 
 ::selection {
   background: var(--aics-glow);
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-grid {
+    max-width: 68rem;
+  }
 }
