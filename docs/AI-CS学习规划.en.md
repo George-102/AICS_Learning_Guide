@@ -1,1 +1,96 @@
+# A Learning Plan for Reference Only
 
+This guide aims to build a computer science learning system for the AI era: to help beginners in computing establish a systematic knowledge structure, master modern software engineering and AI application development, and find a professional direction that suits them.
+
+This guide does not require every learner to complete all the courses in a fixed order. You can choose the path that suits your own foundation, stage of study and goals.
+
+## Tools and Skills
+
+> *“Give me six hours to chop down a tree and I will spend the first four sharpening the axe.”*
+
+Tools and skills are rarely taught in school, yet they are essential for working and studying efficiently.
+
+| Tool or skill        | Description                                                  |
+| :------------------- | :----------------------------------------------------------- |
+| Learning to ask      | **Learning to ask.** If you have just entered this field, you may not even know how to ask a question properly. When you hit a problem, first ask AI, then use a search engine, and only as a last resort bother other people. I recommend reading [How To Ask Questions The Smart Way](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md) to learn what a real question looks like. |
+| Magic (bypassing the firewall) | For reasons everyone knows, sites such as Google and GitHub are inaccessible from the mainland, which also cuts us off from some resources we need. At such times a little **magic** (network circumvention) comes in handy. |
+| shell                | The command line (shell) is an overlooked skill, but in practice it greatly increases your flexibility and productivity as an engineer. [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md) is a classic tutorial, and I strongly recommend that you master some basic shell commands. |
+| Development environment and editor | A development environment is a programmer's basic workplace. If you are a Mac user you are in luck: this [guide](https://sourabhbajaj.com/mac-setup/) will walk you through setting up an entire development environment step by step. If you are a Windows user, thanks to the open-source community you can enjoy a similar experience with [Scoop](https://github.com/ScoopInstaller/Scoop/wiki/Quick-Start). Nowadays we mostly use integrated environments such as Visual Studio; the most famous of these is [VS Code](https://github.com/viatsko/awesome-vscode), where a range of extensions lets you configure a good environment and boost your efficiency. |
+| Development toolchains for programming languages | Compilers, package managers, dependency and build tools. Modern IDEs are powerful enough to build and run code with one click, but in some cases (to understand how a build works, or to squeeze out the last drop of build performance) you still need the toolchain, such as GNU Make. Making good use of GNU Make will build the habit of modular code and familiarize you with how large projects are compiled and linked. |
+| Git                  | Version control, branch merging, PRs and collaborative workflows. A source control tool, and certainly one of the indispensable skills for every CS student. |
+| Markdown             | Writing READMEs, notes and technical documents. The most widely used document format in the computing industry; once you learn it, you gain the power to lay out documents with finesse. |
+| Docker               | Containerized development environments and image deployment. A lighter-weight tool than virtual machines for packaging software and deploying environments. |
+| Vim/Emacs            | Efficient terminal editors and remote development. Vim is a command-line editor that greatly boosts your development speed; Emacs is its equally famous rival, with comparable efficiency and much greater extensibility. |
+| Latex                | Academic papers and standardized document typesetting. ~~A touch of class~~ A typesetting tool for papers. |
+
+## Fundamentals of Computer Science
+
+> *“A house is built from the ground up.”*
+
+The fundamentals of computer science are the shared foundation of all higher-level abilities, and the part AI finds hardest to fill in for you. Code can be generated, but understanding of principles cannot be outsourced: when you meet a performance bottleneck, a bizarre concurrency bug, or a production outage, what saves you is precisely those “old” subjects — operating systems, networks, data structures. Start broad and then go deep; every course below comes with classic courses and textbooks for its field. You do not need to finish them all, just walk one path through that suits you.
+
+| Course                    | Description                                                  |
+| :------------------------ | :----------------------------------------------------------- |
+| Mathematical foundations  | Calculus, linear algebra, discrete mathematics. **Mathematics decides how far you can go in this profession**: calculus is the gateway to understanding gradients and optimization, linear algebra is the language of all machine learning and graphics, and discrete mathematics is the common bedrock of algorithms, cryptography and compiler theory. Learn calculus and linear algebra to the point where they are “carved into your bones” in your first year, rather than forgetting them right after the exam. If the lectures are opaque, consult [MIT 18.06](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) and the beautiful animated videos of [3Blue1Brown](https://www.youtube.com/@3blue1brown) that reveal the essence of mathematics. |
+| Programming fundamentals  | C/C++, Java, Python. Programming languages are tools; what matters is understanding the design ideas behind them: arrays, strings, pointers, object orientation. Beginners should not study several languages at once. Go deep into one first, then use a second to understand a different paradigm and ecosystem — that will take you further than “a little of everything.” |
+| Data structures and algorithms | Algorithms are the heart of computer science, unavoidable in **interviews and coding practice**, and the foundation of almost every professional course. The eternal theme of an algorithms course is how to turn a real problem into an algorithmic one through mathematical abstraction, then solve it with suitable data structures under constraints of time and memory. |
+| Digital logic and computer organization | Logic circuits, CPUs, instructions and the memory hierarchy. This block answers a simple question: **how does a program actually run?** To build that understanding in a way that is both fun and complete, I highly recommend [Nand2Tetris](https://www.nand2tetris.org/), which builds a computer from scratch, followed by an architecture course such as [UCB CS61C](https://cs61c.org/). |
+| Operating systems         | The operating system virtualizes messy, complicated hardware into an elegant set of abstractions and is **the shared foundation of every application**. The real gain from this course usually comes from doing, and nothing deepens understanding like writing a kernel yourself: I recommend [MIT 6.S081 (based on xv6)](https://pdos.csail.mit.edu/6.828/2021/index.html) and this [repository](https://github.com/wlmrh/MIT-6.S081). |
+| Computer networks         | The renowned [Stanford CS144: Computer Networks](https://cs144.github.io/), whose eight projects take you through implementing the entire TCP/IP stack. If you only want a theoretical grasp of networks, read the textbook accompanying [UCB CS168](https://sp25.cs168.io/), available [here](https://textbook.cs168.io/). |
+| Database systems          | CMU's legendary [CMU 15-445: Introduction to Database Systems](https://15445.courses.cs.cmu.edu/spring2023/schedule.html) uses four projects to add features to [bustub](https://github.com/cmu-db/bustub), a relational database built for teaching. The grading framework is open-sourced for free, which makes it ideal for self-study. The projects also use many C++11 features, making it a good chance to sharpen your C++ skills. |
+| Compilers and programming languages | For theory, read the famous “Dragon Book.” Hands-on practice is the best way to master compilers, so I recommend the [Peking University compiler practice course](https://pku-minic.github.io/online-doc/#/), whose rich labs and step-by-step documentation guide you in writing a compiler from a C-like language to RISC-V assembly. There are many other high-quality labs in the compiler course directory as well. |
+| Software engineering      | There is a fundamental difference between code that “runs” and high-quality industrial code. I recommend Berkeley's [UCB CS169: Software Engineering](http://www.saasbook.info/courses). Be warned, however: unlike the software engineering courses at most schools, this one does not follow the traditional **design-and-document** model, which emphasizes class diagrams, flowcharts and document design. Instead it adopts the **Agile Development** model of rapid iteration in small teams, and the **Software as a Service** model built on cloud platforms. |
+| Theory of computation and foundations of AI | Computability, complexity, and the foundations of AI and machine learning. This part is theoretical, but what it gives you is a **sense of limits**: which problems are fundamentally unsolvable, which are solvable but at unacceptable cost, and why some optimizations are doomed to be futile. It is also the starting point for understanding modern AI, helping you see the relationships and differences among traditional AI, machine learning and deep learning — and avoid remembering only the names of tools amid a technological boom while being unable to say what they solve. |
+
+## Engineering Skills for the AI Era
+
+> *“Standing on the shoulders of giants.”*
+
+This section differs most from a conventional curriculum, but that does not mean you can skip the fundamentals. It has two tracks: one uses AI to speed up work — writing code, debugging and reading source code all get faster; the other uses AI to build things — combining models, retrieval and tool calling into usable applications. Anyone can write a prompt; the hard part is making a system stable, evaluable, monitorable and cost-controlled.
+
+| Course                                    | Description                                                  |
+| :---------------------------------------- | :----------------------------------------------------------- |
+| Fundamentals of AI and LLMs               | How models work, tokens, embeddings, and the limits of their abilities. I recommend Karpathy's [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html) to hand-write GPT from scratch, and [Dive into Deep Learning](https://zh.d2l.ai/). |
+| Prompt engineering                        | Instruction design, structured output, tool calling and prompt evaluation. Read [The Prompt Engineering Guide](https://www.promptingguide.ai/zh), then compare results on a batch of test samples. |
+| AI-assisted learning                      | Using AI to read textbooks, source code and papers, with independent verification. Let AI explain, push back with counterexamples, and verify by hand — and avoid the illusion of “I think I understand it.” |
+| AI-assisted software development          | AI coding tools, agent-driven software development, and engineering practice. Start with [Claude Code](https://www.anthropic.com/claude-code), [Codex](https://openai.com/codex/) and [DeepSeek Harness](https://www.deepseek.com/en/harness/). |
+| AI-assisted software engineering          | Requirements, design, testing, review, migration and CI/CD. Put AI into the whole software lifecycle, not just the typing stage. |
+| Building LLM applications                 | LLM APIs, streaming output, structured responses, RAG and agent applications. To begin, follow [Anthropic's courses](https://github.com/anthropics/courses) and run the examples line by line. |
+| Retrieval-augmented generation and knowledge engineering | Document splitting, retrieval, reranking, RAG evaluation and GraphRAG. Build a document Q&A system by hand and validate retrieval with an evaluation dataset; [LlamaIndex](https://docs.llamaindex.ai/) is a good reference. |
+| Agent engineering                         | Planning, tool calling, memory, multi-agent systems and secure deployment. I recommend reading [Building Effective Agents](https://www.anthropic.com/research/building-effective-agents). |
+| AI evaluation and observability           | Evaluation datasets, LLM-as-judge, tracing and error analysis. Without evaluation you cannot tell whether a change made things better or worse; see [Ragas](https://docs.ragas.io/) and [Langfuse](https://langfuse.com/). |
+| Deployment engineering for AI applications | Service deployment, concurrent streaming, monitoring, cost and model rollback. The fastest way to grow is to deploy a small project for real and hand it to others to use. |
+
+## Specialization Tracks
+
+> *“Every man to his trade.”*
+
+Nobody can study every field during an undergraduate degree, and there is no need to. Choose one or two directions based on the intersection of your interests, research goals and career plans, and keep going deep. A simple entry standard: you can read classic papers, reproduce a small experiment, and state clearly the core problems and trade-offs of the field. Do not worry if you have not figured it out yet — build solid fundamentals, and most doors will open for you.
+
+| Course                                  | Description                                                  |
+| :-------------------------------------- | :----------------------------------------------------------- |
+| Artificial intelligence and machine learning | Deep learning, reinforcement learning, LLMs and multimodality. Start with [Andrew Ng's Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction), then go deeper with [CS231n](https://cs231n.stanford.edu/) and [CS224n](https://web.stanford.edu/class/cs224n/). |
+| Software engineering and application development | Front end, back end, full stack, architecture and cloud-native development. Start with [The Odin Project](https://www.theodinproject.com/) or [Full Stack Open](https://fullstackopen.com/en/), writing and deploying as you go. |
+| Computer systems                        | Architecture, compilation, parallelism and kernel development. I recommend [UCB CS61C](https://cs61c.org/) and the legendary [CSAPP](https://csapp.cs.cmu.edu/); for parallelism, see [CMU 15-418](https://www.cs.cmu.edu/~15418/). |
+| Distributed systems and cloud computing | Consistency, consensus, algorithms and large-scale system design. First choice is [MIT 6.5840](https://pdos.csail.mit.edu/6.824/), whose five labs take you through building a Raft-based KV store. |
+| Computer networks and information security | Network protocols, cryptography, web and system security. For theory, see [UCB CS161](https://cs161.org/); for hands-on labs, follow [SEED Labs](https://seedsecuritylabs.org/). |
+| Computer vision                          | Image processing, detection and segmentation, 3D vision and video. The gateway course is Stanford [CS231n](https://cs231n.stanford.edu/), whose assignments implement backpropagation and convolution from scratch. |
+| Natural language processing              | Language models, sequence modeling, information extraction and retrieval. I recommend Stanford [CS224n](https://web.stanford.edu/class/cs224n/); for a next step, take Hugging Face's [NLP Course](https://huggingface.co/learn/nlp-course). |
+| Robotics and autonomous systems          | Motion planning, control, SLAM and autonomous driving. Start with UPenn's [Robotics Specialization](https://www.coursera.org/specializations/robotics); for SLAM, read Gao Xiang's [*14 Lectures on Visual SLAM*](https://github.com/Gaoyao/SLAM-BOOK). |
+| Computer graphics and game development    | Rendering, ray tracing, shaders and game engines. Start with [UCB CS184](https://cs184.eecs.berkeley.edu/), then work through [*Ray Tracing in One Weekend*](https://raytracing.github.io/). |
+| Data science and big data                | Data analysis, mining, data engineering and stream processing. Get started quickly with [Kaggle Learn](https://www.kaggle.com/learn) and enter a competition; for data engineering, see [data-engineering-zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp). |
+
+## Career Development and Employment
+
+> *“Ask not what your company can do for you — ask what you can do for your company.”*
+
+Skill and position are not the same thing: many people can write code, but few can explain clearly what they have built and why. The point of this section is to turn your learning into evidence — projects that run, repositories people can read, clear documentation, and the ability to explain your technical choices in an interview. Start accumulating early: preparation for internships and job hunting usually takes several semesters, not a last-minute cram.
+
+| Course                          | Description                                                  |
+| :------------------------------ | :----------------------------------------------------------- |
+| Understanding career paths     | Learn the responsibilities and requirements of various roles. Read job descriptions on recruiting sites, and use [levels.fyi](https://www.levels.fyi/) to see the expectations at each level. |
+| Projects and portfolio          | Project selection, deployment and demo, GitHub and technical blogs. A project that can be opened, run and explained clearly is more persuasive than “familiar with technology X.” |
+| Internships and job preparation | Resumes, algorithmic and engineering interviews, system design interviews. Practice algorithms on [LeetCode](https://leetcode.cn/); for system design, [System Design Primer](https://github.com/donnemartin/system-design-primer) is essential reading. |
+| Research and academic development | Literature reading, experiment reproduction, paper writing and applications. To begin, read [*How to Read a Paper*](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf); manage references with Zotero, and typeset with LaTeX. |
+| Technical communication and teamwork | Documentation, code review, project management and presentation. I recommend Google's [Technical Writing Courses](https://developers.google.com/tech-writing) and its [engineering practices](https://github.com/google/eng-practices). |
+| Continuous learning and career growth | Tracking trends, evaluating new technology, long-term planning. Read official documentation rather than second-hand tutorials, and follow [Hacker News](https://news.ycombinator.com/) to keep the input flowing. |
