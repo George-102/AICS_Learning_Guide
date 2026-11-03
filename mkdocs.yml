@@ -15,6 +15,7 @@ theme:
   static_templates:
     - 404.html
   favicon: images/favicon.svg
+  logo: images/favicon.svg
   apple-touch-icon-precomposed: images/favicon.png
   include_search_page: false
   search_index_only: true
@@ -55,12 +56,17 @@ theme:
         name: Switch to light mode
 
   font:
-    text: Roboto Slab
-    code: Roboto Mono
+    text: Noto Sans SC
+    code: JetBrains Mono
   icon:
     repo: fontawesome/brands/github # 右上角 GitHub 链接按钮的图标
     previous: material/arrow-left-circle # 自定义“上一页”图标
-    next: material/arrow-right-circle  
+    next: material/arrow-right-circle # 自定义“下一页”图标
+    search: material/magnify
+    share: material/share-variant
+    close: material/close
+    menu: material/menu
+    top: material/arrow-up
 
   # 如果没有 overrides 文件夹，删除下面这行或注释掉
   # custom_dir: overrides
