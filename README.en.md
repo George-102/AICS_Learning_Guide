@@ -9,12 +9,16 @@
 
 > _Talk is cheap, show me the code_
 
-**English** | [简体中文](README.md)
+<p align="center">
+    <a href="README.en.md">English</a> | <a href="README.md">简体中文</a>
+</p>
 
-[![Website](https://img.shields.io/badge/website-AICS_Learning_Guide-blue)](https://george-102.github.io/AICS_Learning_Guide/en/)
-[![License](https://img.shields.io/github/license/George-102/AICS_Learning_Guide)](https://github.com/George-102/AICS_Learning_Guide/blob/main/LICENSE)
-[![Issues](https://img.shields.io/github/issues/George-102/AICS_Learning_Guide)](https://github.com/George-102/AICS_Learning_Guide/issues)
-[![Stars](https://img.shields.io/github/stars/George-102/AICS_Learning_Guide)](https://github.com/George-102/AICS_Learning_Guide)
+<p align="center">
+  <a href="https://george-102.github.io/AICS_Learning_Guide/"><img src="https://img.shields.io/badge/website-AICS_Learning_Guide-blue" alt="Website"></a>
+  <a href="https://github.com/George-102/AICS_Learning_Guide/blob/main/LICENSE"><img src="https://img.shields.io/github/license/George-102/AICS_Learning_Guide" alt="License"></a>
+  <a href="https://github.com/George-102/AICS_Learning_Guide/issues"><img src="https://img.shields.io/github/issues/George-102/AICS_Learning_Guide" alt="Issues"></a>
+  <a href="https://github.com/George-102/AICS_Learning_Guide"><img src="https://img.shields.io/github/stars/George-102/AICS_Learning_Guide" alt="Stars"></a>
+</p>
 
 Computer science has long been one of the most popular majors in China. Since the rise of the internet in the 1990s, computing has spread into ever more industries and fields, companies have needed more and more programmers, and that in turn has kept the major in demand. Meanwhile, from GPT-1 in 2018 to GPT-6 in 2026, with its trillions of parameters, the industry programmers work in has changed beyond recognition during the wildest years of AI development. The most fiercely debated question is naturally employment versus unemployment: whether AI will replace programmers is a topic everyone discusses and everyone fears.
 

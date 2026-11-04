@@ -117,8 +117,12 @@ plugins:
             "Harness Engineering": "Harness Engineering"
             数据结构和算法: Data Structures and Algorithms
             "Hello Algo": "Hello Algo"
+            "OI Wiki": "OI Wiki"
+            工具和技能: Tools and Skills
+            "Git": "Git"
             机器学习与强化学习: Machine Learning and Reinforcement Learning
             "Easy RL 强化学习教程": "Easy RL"
+            自我革新: Self-Improvement
 
 
   - search:
@@ -142,9 +146,15 @@ nav:
   - 前言: "index.md"
   - 如何使用这本指南: "使用指南.md"
   - 一份仅供参考的学习规划: "AI-CS学习规划.md"
+  - 工具和技能:
+      - Git: "工具和技能/git.md"
+
   - AI 时代工程能力:
       - Harness Engineering: "AI时代工程能力/harness-engineering.md"
   - 数据结构和算法:
       - Hello Algo: "数据结构和算法/hello-algo.md"
+      - OI Wiki: "数据结构和算法/oi-wiki.md"
   - 机器学习与强化学习:
       - Easy RL 强化学习教程: "机器学习与强化学习/easy-rl.md"
+  - 自我革新:
+      - "自我革新/自我革新.md"
