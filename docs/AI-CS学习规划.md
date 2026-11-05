@@ -53,7 +53,7 @@
 | AI 与 LLM 基础                          | 模型原理、Token、Embedding、能力边界。推荐卡帕西（Karpathy）的 [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html) 从零手写 GPT，以及 [《动手学深度学习》](https://zh.d2l.ai/)。 |
 | 提示工程                                | 指令设计、结构化输出、工具调用与提示评估。推荐读读 [《提示工程指南》](https://www.promptingguide.ai/zh)，再用一批测试样本对比效果。 |
 | AI 辅助学习                             | 用 AI 阅读教材、源码与论文，并独立核验与验证。让 AI 解释、追问反例、自己动手验证，避免“好像懂了”的错觉。 |
-| AI 辅助软件开发                         | AI 编程工具、Agent 驱动的软件开发、工程化方法。可从 [Claude Code](https://www.anthropic.com/claude-code)、[Codex](https://openai.com/codex/)、[DeepSeek Harness](https://www.deepseek.com/en/harness/)入手。 |
+| AI 辅助软件开发                         | AI 编程工具、Agent 驱动的软件开发、工程化方法。可从 [Claude Code](https://www.anthropic.com/claude-code)、[Codex](https://openai.com/codex/)、[DeepSeek Harness](https://www.deepseek.com/harness/)入手。 |
 | AI 辅助软件工程                         | 需求、设计、测试、审查、迁移与 CI/CD。把 AI 放进整个软件生命周期，而不只是敲代码那一步。 |
 | 大模型应用开发                          | LLM API、流式输出、结构化响应、RAG 与 Agent 应用。入门推荐跟着 [Anthropic 的课程](https://github.com/anthropics/courses) 逐行跑一遍示例。 |
 | 检索增强生成与知识工程                  | 文档切分、检索、重排、RAG 评估与 GraphRAG。动手搭一套文档问答，并用评估数据集验证检索效果，可参考 [LlamaIndex](https://docs.llamaindex.ai/)。 |

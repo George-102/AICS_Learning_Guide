@@ -2,7 +2,7 @@
 
 ## Descriptions
 
-- Offered by: An open source community course by walkinglabs ([course website](https://walkinglabs.github.io/learn-harness-engineering/)), not a for-credit university course, released as a series of short lessons
+- Offered by: An open source community course by walkinglabs ([course website](https://walkinglabs.github.io/learn-harness-engineering/en/)), not a for-credit university course, released as a series of short lessons
 - Prerequisites: A real code repository, familiarity with Git and the command line, and having used at least one coding agent (such as Claude Code or Codex)
 - Programming Languages: None in particular. The course focuses on instruction files, configuration, and verification commands inside a repository, with possibly a little Shell or Python for verification hooks
 - Difficulty: 🌟🌟
@@ -27,7 +27,7 @@ The first pitfall in self-study is the lack of a real project. Without a reposit
 
 ## Course Resources
 
-- Course Website: <https://walkinglabs.github.io/learn-harness-engineering/>
+- Course Website: <https://walkinglabs.github.io/learn-harness-engineering/en/>
 
 ## Personal Resources
 

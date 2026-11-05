@@ -2,7 +2,7 @@
 
 ## Descriptions
 
-- Offered by: OI Wiki, an open source knowledge base ([course website](https://oi-wiki.org/)) maintained by contributors under the CC BY-SA 4.0 license, with Chinese content updated continuously
+- Offered by: OI Wiki an open source knowledge base ([course website](https://en.oi-wiki.org/)) maintained by contributors under the CC BY-SA 4.0 license with English content updated continuously
 - Prerequisites: Basic C/C++ syntax and standard library, familiarity with the basic operations on arrays and strings, and the ability to read complexity notation
 - Programming Languages: Mostly C++, with some entries also available in Python and Java, in a contest-oriented coding style
 - Difficulty: 🌟🌟🌟🌟
@@ -18,7 +18,7 @@ The first pitfall is diving into advanced entries without filtering prerequisite
 
 ## Course Resources
 
-- Course Website: <https://oi-wiki.org/>
+- Course Website: <https://en.oi-wiki.org/>
 
 ## Personal Resources
 

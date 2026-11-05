@@ -5,7 +5,8 @@
   </picture>
 </div>
 
-# AI-CS Learning Guide
+
+<h1 align="center">AI-CS Learning Guide</h1>
 
 > _Talk is cheap, show me the code_
 

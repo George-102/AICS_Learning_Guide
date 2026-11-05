@@ -2,7 +2,7 @@
 
 ## Descriptions
 
-- Offered by: The open source tutorial *Hello Algo* ([course website](https://www.hello-algo.com/)), written by Jin Yudong (Krahets) and released as an open source e-book
+- Offered by: The open source tutorial *Hello Algo* ([course website](https://www.hello-algo.com/en/)), written by Jin Yudong (Krahets) and released as an open source e-book
 - Prerequisites: Basic syntax of any programming language (variables, loops, functions, recursion), plus an intuitive grasp of arrays and linked lists
 - Programming Languages: Examples cover more than ten languages, including Java, C++, Python, Go, JavaScript, TypeScript, C#, Rust, Swift, Dart, and Zig, with every piece of logic provided in multiple languages
 - Difficulty: 🌟🌟
@@ -18,7 +18,7 @@ The first pitfall is mistaking understanding the animation for having mastered t
 
 ## Course Resources
 
-- Course Website: <https://www.hello-algo.com/>
+- Course Website: <https://www.hello-algo.com/en/>
 - Textbooks: A print edition has been published, and the electronic version can be read online for free
 - Assignments: No standardized assignments; chapter examples run as-is, and the repository includes practice problems with reference solutions
 
