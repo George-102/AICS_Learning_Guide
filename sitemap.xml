@@ -2,86 +2,198 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://george-102.github.io/AICS_Learning_Guide/</loc>
-        <lastmod>2026-11-03</lastmod>
+        <lastmod>2026-11-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/"/>
     </url>
     <url>
         <loc>https://george-102.github.io/AICS_Learning_Guide/AI-CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/</loc>
-        <lastmod>2026-11-03</lastmod>
+        <lastmod>2026-11-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/AI-CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/AI-CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
     </url>
     <url>
         <loc>https://george-102.github.io/AICS_Learning_Guide/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</loc>
-        <lastmod>2026-11-03</lastmod>
+        <lastmod>2026-11-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
     </url>
     <url>
-        <loc>https://george-102.github.io/AICS_Learning_Guide/AI%E6%97%B6%E4%BB%A3%E5%B7%A5%E7%A8%8B%E8%83%BD%E5%8A%9B/harness-engineering/</loc>
-        <lastmod>2026-11-03</lastmod>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/AI%E8%BE%85%E5%8A%A9%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/harness-engineering/</loc>
+        <lastmod>2026-11-05</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/AI%E6%97%B6%E4%BB%A3%E5%B7%A5%E7%A8%8B%E8%83%BD%E5%8A%9B/harness-engineering/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/AI%E6%97%B6%E4%BB%A3%E5%B7%A5%E7%A8%8B%E8%83%BD%E5%8A%9B/harness-engineering/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/AI%E8%BE%85%E5%8A%A9%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/harness-engineering/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/AI%E8%BE%85%E5%8A%A9%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/harness-engineering/"/>
+    </url>
+    <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/VimOrEmacs/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/VimOrEmacs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/VimOrEmacs/"/>
+    </url>
+    <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/git/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/git/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/git/"/>
+    </url>
+    <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/latex/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/latex/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/latex/"/>
+    </url>
+    <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/scoop/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/scoop/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/scoop/"/>
+    </url>
+    <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/Context-Engineering/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/Context-Engineering/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/Context-Engineering/"/>
+    </url>
+    <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/Prompt-Engineering/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/Prompt-Engineering/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/Prompt-Engineering/"/>
     </url>
     <url>
         <loc>https://george-102.github.io/AICS_Learning_Guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/hello-algo/</loc>
-        <lastmod>2026-11-03</lastmod>
+        <lastmod>2026-11-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/hello-algo/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/hello-algo/"/>
     </url>
     <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/oi-wiki/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/oi-wiki/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/oi-wiki/"/>
+    </url>
+    <url>
         <loc>https://george-102.github.io/AICS_Learning_Guide/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/easy-rl/</loc>
-        <lastmod>2026-11-03</lastmod>
+        <lastmod>2026-11-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/easy-rl/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/easy-rl/"/>
     </url>
     <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/%E8%87%AA%E6%88%91%E9%9D%A9%E6%96%B0/%E8%87%AA%E6%88%91%E9%9D%A9%E6%96%B0/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E8%87%AA%E6%88%91%E9%9D%A9%E6%96%B0/%E8%87%AA%E6%88%91%E9%9D%A9%E6%96%B0/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E8%87%AA%E6%88%91%E9%9D%A9%E6%96%B0/%E8%87%AA%E6%88%91%E9%9D%A9%E6%96%B0/"/>
+    </url>
+    <url>
         <loc>https://george-102.github.io/AICS_Learning_Guide/en/</loc>
-        <lastmod>2026-11-03</lastmod>
+        <lastmod>2026-11-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/"/>
     </url>
     <url>
         <loc>https://george-102.github.io/AICS_Learning_Guide/en/AI-CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/</loc>
-        <lastmod>2026-11-03</lastmod>
+        <lastmod>2026-11-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/AI-CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/AI-CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
     </url>
     <url>
         <loc>https://george-102.github.io/AICS_Learning_Guide/en/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</loc>
-        <lastmod>2026-11-03</lastmod>
+        <lastmod>2026-11-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
     </url>
     <url>
-        <loc>https://george-102.github.io/AICS_Learning_Guide/en/AI%E6%97%B6%E4%BB%A3%E5%B7%A5%E7%A8%8B%E8%83%BD%E5%8A%9B/harness-engineering/</loc>
-        <lastmod>2026-11-03</lastmod>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/en/AI%E8%BE%85%E5%8A%A9%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/harness-engineering/</loc>
+        <lastmod>2026-11-05</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/AI%E6%97%B6%E4%BB%A3%E5%B7%A5%E7%A8%8B%E8%83%BD%E5%8A%9B/harness-engineering/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/AI%E6%97%B6%E4%BB%A3%E5%B7%A5%E7%A8%8B%E8%83%BD%E5%8A%9B/harness-engineering/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/AI%E8%BE%85%E5%8A%A9%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/harness-engineering/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/AI%E8%BE%85%E5%8A%A9%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/harness-engineering/"/>
+    </url>
+    <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/en/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/VimOrEmacs/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/VimOrEmacs/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/VimOrEmacs/"/>
+    </url>
+    <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/en/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/git/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/git/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/git/"/>
+    </url>
+    <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/en/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/latex/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/latex/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/latex/"/>
+    </url>
+    <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/en/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/scoop/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/scoop/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%8A%80%E8%83%BD/scoop/"/>
+    </url>
+    <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/en/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/Context-Engineering/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/Context-Engineering/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/Context-Engineering/"/>
+    </url>
+    <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/en/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/Prompt-Engineering/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/Prompt-Engineering/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/Prompt-Engineering/"/>
     </url>
     <url>
         <loc>https://george-102.github.io/AICS_Learning_Guide/en/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/hello-algo/</loc>
-        <lastmod>2026-11-03</lastmod>
+        <lastmod>2026-11-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/hello-algo/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/hello-algo/"/>
     </url>
     <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/en/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/oi-wiki/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/oi-wiki/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/oi-wiki/"/>
+    </url>
+    <url>
         <loc>https://george-102.github.io/AICS_Learning_Guide/en/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/easy-rl/</loc>
-        <lastmod>2026-11-03</lastmod>
+        <lastmod>2026-11-05</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/easy-rl/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/easy-rl/"/>
+    </url>
+    <url>
+        <loc>https://george-102.github.io/AICS_Learning_Guide/en/%E8%87%AA%E6%88%91%E9%9D%A9%E6%96%B0/%E8%87%AA%E6%88%91%E9%9D%A9%E6%96%B0/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://george-102.github.io/AICS_Learning_Guide/en/%E8%87%AA%E6%88%91%E9%9D%A9%E6%96%B0/%E8%87%AA%E6%88%91%E9%9D%A9%E6%96%B0/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://george-102.github.io/AICS_Learning_Guide/%E8%87%AA%E6%88%91%E9%9D%A9%E6%96%B0/%E8%87%AA%E6%88%91%E9%9D%A9%E6%96%B0/"/>
     </url>
 </urlset>
