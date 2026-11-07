@@ -112,14 +112,76 @@ plugins:
           nav_translations:
             前言: Foreword
             如何使用这本指南: How to Use This Guide
-            一份仅供参考的学习规划: A learning plan for reference only
-            AI 辅助软件开发: AI-Assisted Software Development
-            数据结构和算法: Data Structures and Algorithms
+            一份仅供参考的学习规划: A Learning Plan For Reference Only
 
             工具和技能: Tools and Skills
-            机器学习与强化学习: Machine Learning and Reinforcement Learning
-            "Easy RL 强化学习教程": "Easy RL"
+            学会提问: Learning to Ask
+            魔法: Magic
+            Shell: Shell
+            开发环境与编辑器: Dev Environments and Editors
+            编程语言的开发工具链: Programming Language Toolchains
+            Git: Git
+            Markdown: Markdown
+            Docker: Docker
+            "Vim/Emacs": "Vim/Emacs"
+            Latex: LaTeX
+
+            数学基础: Mathematics
+            微积分: Calculus
+            线性代数: Linear Algebra
+            离散数学: Discrete Mathematics
+            概率论与数理统计: Probability and Statistics
+            程序设计基础: Programming Basics
+            C语言: C
+            数据结构和算法: Data Structures and Algorithms
+            "Hello 算法": "Hello Algo"
+            "OI Wiki": "OI Wiki"
+            数字逻辑与计算机组成: Digital Logic and Computer Organization
+            数字逻辑: Digital Logic
+            计算机是怎样跑起来的: How Computers Really Work
+            操作系统: Operating Systems
+            计算机网络: Computer Networks
+            数据库系统: Database Systems
+            编译原理与程序语言: Compilers and Programming Languages
+            软件工程: Software Engineering
+            "MIT6.031 Software Construction": "MIT6.031 Software Construction"
+            现代软件工程: Modern Software Engineering
+            计算理论与人工智能基础: Computational Theory and AI Foundations
+            "Berkeley CS188": "Berkeley CS188"
+
+            "AI 与 LLM 基础": "AI and LLM Foundations"
+            提示工程: Prompt Engineering
+            "Prompt Engineering": "Prompt Engineering"
+            "Context Engineering": "Context Engineering"
+            "AI 辅助学习": "AI-Assisted Learning"
+            "AI 辅助软件开发": "AI-Assisted Software Development"
+            "AI 辅助软件工程": "AI-Assisted Software Engineering"
+            "大模型应用开发": "LLM Application Development"
+            "检索增强生成与知识工程": "RAG and Knowledge Engineering"
+            "智能体工程": "Agent Engineering"
+            "AI 评估与可观测性": "AI Evaluation and Observability"
+            "AI 应用部署工程": "AI Application Deployment Engineering"
+
+            人工智能与机器学习: AI and Machine Learning
+            软件工程与应用开发: Software Engineering and Application Development
+            计算机系统: Computer Systems
+            分布式系统与云计算: Distributed Systems and Cloud Computing
+            计算机网络与信息安全: Computer Networks and Information Security
+            计算机视觉: Computer Vision
+            自然语言处理: Natural Language Processing
+            机器人与自主系统: Robotics and Autonomous Systems
+            计算机图形学与游戏开发: Computer Graphics and Game Development
+            数据科学与大数据: Data Science and Big Data
+
+            职业方向认知: Career Path Awareness
+            项目经验与作品集: Project Experience and Portfolio
+            实习与求职准备: Internships and Job Search Preparation
+            科研与学术发展: Research and Academic Development
+            技术沟通与团队协作: Technical Communication and Teamwork
+            持续学习与职业成长: Lifelong Learning and Career Growth
+
             自我革新: Self-Improvement
+            Christopher: Christopher
 
 
   - search:
@@ -143,26 +205,82 @@ nav:
   - 前言: "index.md"
   - 如何使用这本指南: "使用指南.md"
   - 一份仅供参考的学习规划: "AI-CS学习规划.md"
+
   - 工具和技能:
+      - 学会提问: "工具和技能/学会提问.md"
+      - 魔法: "工具和技能/魔法.md"
+      - Shell: "工具和技能/Shell.md"
+      - 开发环境与编辑器: "工具和技能/开发环境与编辑器.md"
+      - 编程语言的开发工具链: "工具和技能/编程语言的开发工具链.md"
       - Git: "工具和技能/git.md"
-      - Vim/Emacs: "工具和技能/VimOrEmacs.md"
-      - Scoop: "工具和技能/scoop.md"
+      - Markdown: "工具和技能/Markdown.md"
+      - Docker: "工具和技能/Docker.md"
+      - "Vim/Emacs": "工具和技能/VimOrEmacs.md"
       - Latex: "工具和技能/latex.md"
-     
+
+  # 计算机科学基础
+  - 数学基础:
+      - 微积分: "数学基础/微积分.md"
+      - 线性代数: "数学基础/线性代数.md"
+      - 离散数学: "数学基础/离散数学.md"
+      - 概率论与数理统计: "数学基础/概率论与数理统计.md"
+  - 程序设计基础:
+      - C语言: "程序设计基础/C.md"
   - 数据结构和算法:
-      - Hello Algo: "数据结构和算法/hello-algo.md"
-      - OI Wiki: "数据结构和算法/oi-wiki.md"
-
+      - "Hello 算法": "数据结构和算法/hello-algo.md"
+      - "OI Wiki": "数据结构和算法/oi-wiki.md"
+  - 数字逻辑与计算机组成:
+      - "数字逻辑": "数字逻辑与计算机组成/数字逻辑.md"
+      - "计算机是怎样跑起来的": "数字逻辑与计算机组成/计算机是怎样跑起来的.md"
+  - 操作系统: []
+  - 计算机网络: []
+  - 数据库系统: []
+  - 编译原理与程序语言: []
+  - 软件工程:
+      - "MIT6.031 Software Construction": "软件工程/MIT6.031-Software Construction.md"
+      - 现代软件工程: "软件工程/现代软件工程.md"
+  - 计算理论与人工智能基础: 
+      - "Berkeley CS188": "计算理论与人工智能基础/人工智能基础.md"
+  
+  # AI 时代工程能力
+  - "AI 与 LLM 基础": []
   - 提示工程:
-      - Prompt Engineering: "提示工程/Prompt-Engineering.md"
-      - Context Engineering: "提示工程/Context-Engineering.md"
-      
-  - AI 辅助软件开发:
-      - Harness Engineering: "AI辅助软件开发/harness-engineering.md"
+      - "Prompt Engineering": "提示工程/Prompt-Engineering.md"
+      - "Context Engineering": "提示工程/Context-Engineering.md"
+  - "AI 辅助学习": []
+  - "AI 辅助软件开发": []
+  - "AI 辅助软件工程": []
+  - "大模型应用开发": []
+  - "检索增强生成与知识工程": []
+  - "智能体工程": []
+  - "AI 评估与可观测性": []
+  - "AI 应用部署工程": []
+
+  # 专业方向
+  - 人工智能与机器学习: []
+  - 软件工程与应用开发: []
+  - 计算机系统: []
+  - 分布式系统与云计算: []
+  - 计算机网络与信息安全: []
+  - 计算机视觉: []
+  - 自然语言处理: []
+  - 机器人与自主系统: []
+  - 计算机图形学与游戏开发: []
+  - 数据科学与大数据: []
+
+  # 职业发展与就业
+  - 职业方向认知: []
+  - 项目经验与作品集: []
+  - 实习与求职准备: []
+  - 科研与学术发展: []
+  - 技术沟通与团队协作: []
+  - 持续学习与职业成长: []
 
 
-  - 机器学习与强化学习:
-      - Easy RL 强化学习教程: "机器学习与强化学习/easy-rl.md"
-      
+
+
+
+
+
   - 自我革新:
-      - "自我革新/自我革新.md"
+      - Christopher: "自我革新/自我革新.md"

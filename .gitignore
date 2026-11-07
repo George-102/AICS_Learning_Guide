@@ -1,4 +1,49 @@
-.vscode/
-.claude/
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
 /venv
+/venv/
+.venv/
+env/
+ENV/
+
+# MkDocs build output
 /site
+/site/
+
+# Node (if used for tooling)
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+build.log
+
+# AI / Agent local state
+.claude/
+AGENTS.md
