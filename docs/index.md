@@ -2,7 +2,10 @@
   ![Image title](./images/title_light.png#only-light){ width="100%" }
   ![Image title](./images/title_dark.png#only-dark){ width="100%" }
 </figure>
+
 # 前言
+
+> _所谓专家，就是在极小领域内犯过所能犯的全部错误的人。_
 
 本书是一本开源免费的AI 时代计算机专业的学习体系指南，既是我献给学弟学妹的一份礼物，也是我为开源社区所做的一点绵薄之力。
 
@@ -76,5 +79,5 @@
 本书内容完全开源免费。如果你觉得这个项目对你有帮助，可以给仓库点个 star，或者请作者喝一杯下午茶。
 
 <figure markdown>
-  ![Image title](./images/sponsor.jpg){ width="500" }
+  ![Image title](./images/sponsor.jpg){ width="500" align="center" }
 </figure>

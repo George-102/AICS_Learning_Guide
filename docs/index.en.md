@@ -2,9 +2,12 @@
   ![Image title](./images/title_light.png#only-light){ width="100%" }
   ![Image title](./images/title_dark.png#only-dark){ width="100%" }
 </figure>
+
 # Foreword
 
-This book is an open-source, free guide to a computer science curriculum for the AI era. It is a gift to the juniors who come after me, and my small contribution to the open-source community.
+> _An expert is someone who has made every possible mistake within a very narrow field._
+
+This book is an open-source, free guide to a computer science learning system for the AI era. It is a gift to the juniors who come after me, and my small contribution to the open-source community.
 
 If this guide helps you even a little, that will be encouragement and comfort enough for me.
 
@@ -17,7 +20,7 @@ The book currently contains the following parts (if you have better ideas, or wo
 
 When I entered university I was a complete beginner in computing. Apart from playing PC games, I could not even install legitimate software. Still, I began my computer science journey with curiosity and enthusiasm. Every day I went to class on time, listened attentively to the lectures, took careful notes, and completed the assignments. Yet I gradually realized that every teacher taught differently, at a different pace, with different emphases and different levels of enthusiasm. Some merely read out an outdated slide deck; some did little more than call on students to answer questions already printed on the slides. Very few were genuinely committed to teaching and to making students think critically. Day after day of this dull routine wore my enthusiasm down... I lost my bearings, and for a while I wondered whether computer science was simply not for me, because everything I had imagined about geeks as a child had been shattered by my first year. I kept asking myself: if AI can do so many things, what do I actually need to learn? Do I still need to learn Java and Python? Do I still need data structures and computer networks? I assumed my university years would pass quietly like this: classes, studying, entertainment. Then, within a couple of months, DeepSeek-V3 arrived on the scene, and everyone around me was raving about this brand-new model.
 
-As a beginner, I thought it was no big deal — just one more tool to help me write code. I went on grinding through the four core courses in their conventional order, just as before, until near the start of my second year, when my data structures teacher happened to share a post in the group chat: the text of Andrew Ng's talk at a Buildathon. The moment I saw it I was hooked. I read the whole thing in one sitting, and still unsatisfied, went to YouTube to watch the original video.
+As a beginner, I thought it was no big deal — just one more tool to help me write code. I went on grinding through the textbooks in the order of the "four core subjects" of computer science, just as before, until near the start of my second year, when my data structures teacher happened to share a post in the group chat: the text of Andrew Ng's talk at a Buildathon. The moment I saw it I was hooked. I read the whole thing in one sitting, and still unsatisfied, went to YouTube to watch the original video.
 
 The talk was about AI-assisted programming, rapid prototyping, and the skills an AI engineer needs. For the first time I saw clearly where this industry — and every industry — is heading: **understand AI and master AI**.
 

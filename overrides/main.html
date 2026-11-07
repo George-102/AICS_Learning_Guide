@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <script>
+    (function () {
+      var STORAGE_KEY = '__lang_choice';
+      var DEFAULT_LOCALE = 'zh';
+      var DEFAULT_PREFIX = '';
+      var OTHER_LOCALES = { en: 'en' };
+
+      var siteRoot;
+      try {
+        siteRoot = new URL("{{ config.site_url or '/' }}", window.location.origin).pathname;
+      } catch (e) {
+        siteRoot = '/';
+      }
+      if (siteRoot.charAt(siteRoot.length - 1) !== '/') siteRoot += '/';
+
+      var fullPath = window.location.pathname;
+      var relative = fullPath.indexOf(siteRoot) === 0
+        ? fullPath.slice(siteRoot.length)
+        : fullPath.replace(/^\/+/, '');
+
+      if (relative === '' || /\/$/.test(relative)) {
+        relative += 'index.html';
+      }
+
+      var current = DEFAULT_LOCALE;
+      var prefixMatched = DEFAULT_PREFIX;
+      Object.keys(OTHER_LOCALES).forEach(function (loc) {
+        if (current !== DEFAULT_LOCALE) return;
+        if (new RegExp('^' + loc + '/').test(relative)) {
+          current = loc;
+          prefixMatched = OTHER_LOCALES[loc];
+        }
+      });
+
+      var stored = null;
+      try {
+        stored = window.localStorage.getItem(STORAGE_KEY);
+      } catch (e) {
+        stored = null;
+      }
+      if (stored) return;
+
+      var pathWithoutPrefix = relative;
+      if (prefixMatched && relative.indexOf(prefixMatched + '/') === 0) {
+        pathWithoutPrefix = relative.slice(prefixMatched.length + 1);
+      }
+
+      if (pathWithoutPrefix !== 'index.html') return;
+
+      var langs = navigator.languages && navigator.languages.length
+        ? navigator.languages
+        : [navigator.language || navigator.userLanguage || ''];
+
+      var preferred = null;
+      for (var j = 0; j < langs.length; j++) {
+        var tag = String(langs[j] || '').toLowerCase();
+        if (!tag) continue;
+        if (tag.indexOf('zh') === 0) {
+          preferred = 'zh';
+          break;
+        }
+        if (tag.indexOf('en') === 0) {
+          preferred = 'en';
+          break;
+        }
+      }
+
+      if (!preferred || preferred === current) return;
+
+      var rest = pathWithoutPrefix;
+      var prefix = preferred === DEFAULT_LOCALE ? '' : OTHER_LOCALES[preferred] + '/';
+      var target = siteRoot + prefix + rest;
+
+      try {
+        window.localStorage.setItem(STORAGE_KEY, preferred);
+      } catch (e) {}
+
+      target += window.location.search + window.location.hash;
+      window.location.replace(target);
+    })();
+  </script>
+  <script>
+    (function () {
+      var STORAGE_KEY = '__lang_choice';
+      var apply = function () {
+        var boxes = document.querySelectorAll('.md-select__inner a.md-select__link, .md-select__inner a');
+        Array.prototype.forEach.call(boxes, function (a) {
+          a.addEventListener('click', function () {
+            var href = a.getAttribute('href') || '';
+            var choice = 'zh';
+            if (/(^|\/)en(\/|$)/.test(href)) choice = 'en';
+            try {
+              window.localStorage.setItem(STORAGE_KEY, choice);
+            } catch (e) {}
+          });
+        });
+      };
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', apply);
+      } else {
+        apply();
+      }
+    })();
+  </script>
+{% endblock %}
